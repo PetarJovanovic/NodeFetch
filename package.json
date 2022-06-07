@@ -1,0 +1,22 @@
+{
+  "name": "fetchnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint '**/*.js'",
+    "lint-watch": "nodemon --exec 'npm run lint --silent'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.17.0",
+    "fetch-node": "^0.0.1",
+    "node": "^16.14.2",
+    "node-fetch": "2.0"
+  },
+  "devDependencies": {
+    "eslint-config-salt": "^1.2.0"
+  }
+}
